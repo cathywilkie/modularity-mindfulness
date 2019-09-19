@@ -1,0 +1,36 @@
+html {
+  background-color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+i {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.btn-ghost {
+  color: #005e76;
+  background-color: #e2e2e2;
+  border-color: #0084a6;
+}
+
+.btn-ghost:hover
+.btn-ghost:hover {
+  color: #005e76;
+  background-color: #8bc9d9;
+  border-color: #005e76;
+}
+
+.nav a {
+  color: #0084a6;
+  border-bottom-color: #8bc9d9;
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: #005e76;
+  border-bottom-color: #005e76;
+}
