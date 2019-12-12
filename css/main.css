@@ -1,10 +1,26 @@
 html {
-  background-color: #fff;
   font-family: "Noto Sans", sans-serif;
 }
 
 i {
   font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.nav a {
+  display: block;
+  color: #005e76;
+  text-decoration: none;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+.borders {
+  border-color: #e2e2e2;
+  border-style: solid;
+  border-width: 2px 0;
 }
 
 .btn-ghost {
@@ -14,29 +30,8 @@ i {
 
 .btn-ghost:hover {
   color: #005e76;
-  background-color: #8bc9d9;
   border: 2px solid #0084a6;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #005e76;
-  border-bottom: 2px solid #8bc9d9;
-}
-
-.nav a:hover {
-  color: #005e76;
-  border-bottom-color: #005e76;
-}
-
-.borders {
-  border-color: #e2e2e2;
-  border-style: solid;
-  border-width: 2px 0;
-}
-
-p {
-  color: #000;
+  background-color: #8bc9d9;
 }
 
 footer {
@@ -46,12 +41,12 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
-  .logo {
-    text-align: left;
+  .right-align {
+    text-align: right;
   }
 
-  .nav {
-    text-align: right;
+  .left-align {
+    text-align: left;
   }
 
 }
