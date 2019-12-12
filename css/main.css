@@ -3,34 +3,51 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
 .btn-ghost {
   color: #005e76;
-  background-color: #e2e2e2;
-  border-color: #0084a6;
+  border: 2px solid #8bc9d9;
 }
 
-.btn-ghost:hover
 .btn-ghost:hover {
   color: #005e76;
   background-color: #8bc9d9;
-  border-color: #005e76;
+  border: 2px solid #005e76;
 }
 
 .nav a {
+  text-decoration: none;
   color: #0084a6;
-  border-bottom-color: #8bc9d9;
+  border-bottom: 2px solid #8bc9d9;
 }
 
-.nav a:hover,
-.nav a:focus {
+.nav a:hover {
   color: #005e76;
   border-bottom-color: #005e76;
+}
+
+.borders {
+  border-color: #e2e2e2;
+  border-style: solid;
+  border-width: 2px 0;
+}
+
+footer {
+  color: #666;
+  border-top: 2px solid #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
